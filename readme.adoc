@@ -19,3 +19,5 @@ today -ext=txt --delta=-1  # vim 2020-06-21.txt
 ```
 fisher add jleeothon/fish-today
 ```
+
+Relative dates are only tested on macOS. They are calculated using the `-v` parameter to `date`.
