@@ -16,4 +16,6 @@ today -ext=txt --delta=-1  # vim 2020-06-21.txt
 
 == Installation
 
+```
 fisher add jleeothon/fish-today
+```
