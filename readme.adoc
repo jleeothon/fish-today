@@ -5,12 +5,12 @@ Opens a file with today's date using vim
 ```
 -e/--ext=EXTENSION  default: md
 -d/--delta=DAYS     e.g. +1 (tomorrow), -1 (yesterday)
--n/--noop           Only prints the file name-h/--help
+-n/--noop           Only prints the file name
+-h/--help
 
 Examples
 today                      # vim 2020-06-22.md
 today -eadoc -d+1          # vim 2020-06-23.adoc
-today -ext=txt --delta=-1  # vim 2020-06-21.txt
 today -ext=txt --delta=-1  # vim 2020-06-21.txt
 ```
 
